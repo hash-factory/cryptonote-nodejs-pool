@@ -5,3 +5,7 @@ build/
 .idea/
 logs/
 website/
+chain.pem
+cert.pem
+fullchain.pem
+privkey.pem
