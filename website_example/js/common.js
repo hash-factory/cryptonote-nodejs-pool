@@ -486,7 +486,7 @@ function getBlockRowElement (block, jsonString, stats) {
 	if (typeof block.reward == "undefined") {
 		reward = "Waiting...";
 	} else {
-		reward = getReadableCoin(stats, block.reward, null, true);
+		reward = getReadableCoins(stats, block.reward, null, true);
 	}
 
 	var columns =
